@@ -7,7 +7,8 @@ public class Car implements AutoCloseable {
     }
 
     @Override
-    public void close() throws Exception {
+    public void close() {
         System.out.println("Машина жабылып жатат.");
     }
+
 }
